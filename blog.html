@@ -1,326 +1,324 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>방화 노래방 꿀팁 및 트렌드 칼럼 | 방화 노래방 정보</title>
-  <meta name="description" content="방화역 인근 로컬 상권에서 사운드 빵빵하고 서비스 안주 낭랑하게 챙겨주는 정찰제 패밀리 노래방 시설 및 예약 정보 가이드. 로컬 꿀팁 실전 수록 칼럼.">
-  <meta name="keywords" content="방화 노래방 정보, 방화 노래방 트렌드, 방화 노래방 칼럼, 방화 노래방 팁">
-  <link rel="canonical" href="https://banghwa-song-note.mapo-room-guide.xyz/blog.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-bh-kb-info-2">
-  <style>
-    
-    :root {
-      --bg-dark: #090d16;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #1e293b;
-      --accent-neon: #a78bfa;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: system-ui, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 28px;
-      font-size: 0.98rem;
-      font-weight: 700;
-      transition: color 0.3s, text-shadow 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-      text-shadow: 0 0 8px var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 140px 20px 100px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 75%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      margin-bottom: 24px;
-      letter-spacing: -0.06em;
-      line-height: 1.25;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    }
-    
-    .hero-glow p {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 750px;
-      margin: 0 auto 35px;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
-      padding: 18px;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      border-radius: 8px;
-      margin: 25px auto;
-      max-width: 600px;
-      font-size: 1.4rem;
-      font-weight: 900;
-      letter-spacing: 0.05em;
-      text-align: center;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-      transition: text-shadow 0.3s;
-    }
-    
-    .phone-bar a:hover {
-      text-shadow: 0 0 10px var(--accent-neon);
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 15px 36px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 800;
-      border-radius: 9999px;
-      box-shadow: 0 4px 22px rgba(236, 72, 153, 0.35);
-      transition: all 0.3s ease;
-      letter-spacing: 0.03em;
-    }
-    
-    .neon-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(236, 72, 153, 0.65);
-    }
-    
-    .sec-wrap {
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 24px;
-      padding: 45px;
-      backdrop-filter: blur(10px);
-      margin-bottom: 45px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
-    
-    .glass-box h2 {
-      font-size: 2.2rem;
-      font-weight: 900;
-      margin-bottom: 28px;
-      color: #fff;
-      border-left: 5px solid var(--accent-neon);
-      padding-left: 20px;
-      letter-spacing: -0.04em;
-    }
-    
-    .glass-box p {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 24px;
-      text-align: justify;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 28px;
-      margin-top: 36px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.015);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 28px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-3px);
-      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 14px;
-      letter-spacing: -0.02em;
-    }
-    
-    .mini-card p {
-      font-size: 0.98rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .premium-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 30px 0;
-      color: var(--text-main);
-    }
-    
-    .premium-table th {
-      background: rgba(255,255,255,0.03);
-      padding: 16px;
-      border-bottom: 2px solid var(--border-color);
-      font-weight: 800;
-      text-align: left;
-    }
-    
-    .premium-table td {
-      padding: 16px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 1.05rem;
-    }
-    
-    .premium-table tbody tr:hover {
-      background: rgba(255,255,255,0.01);
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 24px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.88rem;
-      color: var(--accent-neon);
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    
-    .reviewer-text {
-      font-size: 1.02rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.5);
-      border-top: 1px solid var(--border-color);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 12px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.3rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 28px;
-      }
-      .premium-table {
-        font-size: 0.9rem;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "방화 노래방 밤문화 칼럼",
-      "image": "https://t3b05-bh-kb-info-2.pages.dev/og.jpg",
-      "author": {
-        "@type": "Person",
-        "name": "로컬 브로"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "방화 노래방 Portal"
-      },
-      "url": "https://t3b05-bh-kb-info-2.pages.dev/blog.html"
-    }
-  </script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>방화 노래방 꿀팁 및 트렌드 칼럼 | 방화 노래방 정보</title>
+ <meta name="description" content="방화역 인근 로컬 상권에서 사운드 빵빵하고 서비스 안주 낭랑하게 챙겨주는 정찰제 패밀리 노래방 시설 및 예약 정보 가이드. 로컬 꿀팁 실전 수록 칼럼.">
+ <meta name="keywords" content="방화 노래방 정보, 방화 노래방 트렌드, 방화 노래방 칼럼, 방화 노래방 팁">
+ <link rel="canonical" href="https://banghwa-song-note.mapo-room-guide.xyz/blog.html">
+ <style>
+ 
+ :root {
+ --bg-dark: #090d16;
+ --bg-card: rgba(255, 255, 255, 0.03);
+ --border-color: rgba(255, 255, 255, 0.08);
+ --primary-neon: #1e293b;
+ --accent-neon: #a78bfa;
+ --text-main: #f4f4f5;
+ --text-muted: #a1a1aa;
+ }
+ 
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ 
+ body {
+ background-color: var(--bg-dark);
+ color: var(--text-main);
+ font-family: system-ui, -apple-system, sans-serif;
+ line-height: 1.7;
+ overflow-x: hidden;
+ }
+ 
+ .glow-header {
+ background: rgba(0, 0, 0, 0.6);
+ backdrop-filter: blur(12px);
+ border-bottom: 1px solid var(--border-color);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+ 
+ .nav-container {
+ max-width: 1100px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 18px 20px;
+ }
+ 
+ .logo-glow {
+ font-size: 1.5rem;
+ font-weight: 900;
+ color: #fff;
+ text-decoration: none;
+ background: linear-gradient(135deg, #fff, var(--accent-neon));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+ }
+ 
+ .nav-links a {
+ color: var(--text-muted);
+ text-decoration: none;
+ margin-left: 28px;
+ font-size: 0.98rem;
+ font-weight: 700;
+ transition: color 0.3s, text-shadow 0.3s;
+ }
+ 
+ .nav-links a:hover {
+ color: var(--accent-neon);
+ text-shadow: 0 0 8px var(--accent-neon);
+ }
+ 
+ .hero-glow {
+ padding: 140px 20px 100px;
+ text-align: center;
+ background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 75%);
+ position: relative;
+ }
+ 
+ .hero-glow h1 {
+ font-size: 3.2rem;
+ font-weight: 900;
+ margin-bottom: 24px;
+ letter-spacing: -0.06em;
+ line-height: 1.25;
+ }
+ 
+ .gradient-txt {
+ background: linear-gradient(135deg, #fff, var(--accent-neon));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+ }
+ 
+ .hero-glow p {
+ font-size: 1.25rem;
+ color: var(--text-muted);
+ max-width: 750px;
+ margin: 0 auto 35px;
+ }
+ 
+ .phone-bar {
+ background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
+ padding: 18px;
+ border-top: 1px solid var(--border-color);
+ border-bottom: 1px solid var(--border-color);
+ border-radius: 8px;
+ margin: 25px auto;
+ max-width: 600px;
+ font-size: 1.4rem;
+ font-weight: 900;
+ letter-spacing: 0.05em;
+ text-align: center;
+ }
+ 
+ .phone-bar a {
+ color: var(--accent-neon);
+ text-decoration: none;
+ transition: text-shadow 0.3s;
+ }
+ 
+ .phone-bar a:hover {
+ text-shadow: 0 0 10px var(--accent-neon);
+ }
+ 
+ .neon-btn {
+ display: inline-block;
+ padding: 15px 36px;
+ background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
+ color: white;
+ text-decoration: none;
+ font-weight: 800;
+ border-radius: 9999px;
+ box-shadow: 0 4px 22px rgba(236, 72, 153, 0.35);
+ transition: all 0.3s ease;
+ letter-spacing: 0.03em;
+ }
+ 
+ .neon-btn:hover {
+ transform: translateY(-2px);
+ box-shadow: 0 8px 30px rgba(236, 72, 153, 0.65);
+ }
+ 
+ .sec-wrap {
+ max-width: 950px;
+ margin: 0 auto;
+ padding: 60px 20px;
+ }
+ 
+ .glass-box {
+ background: var(--bg-card);
+ border: 1px solid var(--border-color);
+ border-radius: 24px;
+ padding: 45px;
+ backdrop-filter: blur(10px);
+ margin-bottom: 45px;
+ box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+ }
+ 
+ .glass-box h2 {
+ font-size: 2.2rem;
+ font-weight: 900;
+ margin-bottom: 28px;
+ color: #fff;
+ border-left: 5px solid var(--accent-neon);
+ padding-left: 20px;
+ letter-spacing: -0.04em;
+ }
+ 
+ .glass-box p {
+ font-size: 1.1rem;
+ color: var(--text-muted);
+ margin-bottom: 24px;
+ text-align: justify;
+ }
+ 
+ .grid-container {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+ gap: 28px;
+ margin-top: 36px;
+ }
+ 
+ .mini-card {
+ background: rgba(255, 255, 255, 0.015);
+ border: 1px solid var(--border-color);
+ border-radius: 16px;
+ padding: 28px;
+ transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+ }
+ 
+ .mini-card:hover {
+ border-color: var(--accent-neon);
+ transform: translateY(-3px);
+ box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+ }
+ 
+ .mini-card h3 {
+ font-size: 1.3rem;
+ font-weight: 800;
+ color: #fff;
+ margin-bottom: 14px;
+ letter-spacing: -0.02em;
+ }
+ 
+ .mini-card p {
+ font-size: 0.98rem;
+ color: var(--text-muted);
+ margin-bottom: 0;
+ }
+ 
+ .premium-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 30px 0;
+ color: var(--text-main);
+ }
+ 
+ .premium-table th {
+ background: rgba(255,255,255,0.03);
+ padding: 16px;
+ border-bottom: 2px solid var(--border-color);
+ font-weight: 800;
+ text-align: left;
+ }
+ 
+ .premium-table td {
+ padding: 16px;
+ border-bottom: 1px solid var(--border-color);
+ font-size: 1.05rem;
+ }
+ 
+ .premium-table tbody tr:hover {
+ background: rgba(255,255,255,0.01);
+ }
+ 
+ .ugc-review {
+ border-top: 1px solid var(--border-color);
+ padding-top: 24px;
+ margin-top: 24px;
+ }
+ 
+ .reviewer-meta {
+ display: flex;
+ justify-content: space-between;
+ font-size: 0.88rem;
+ color: var(--accent-neon);
+ margin-bottom: 10px;
+ font-weight: 700;
+ }
+ 
+ .reviewer-text {
+ font-size: 1.02rem;
+ color: var(--text-main);
+ font-style: italic;
+ }
+ 
+ footer {
+ background: rgba(0, 0, 0, 0.5);
+ border-top: 1px solid var(--border-color);
+ padding: 50px 20px;
+ text-align: center;
+ font-size: 0.95rem;
+ color: var(--text-muted);
+ }
+ 
+ footer p {
+ margin-bottom: 12px;
+ }
+ 
+ footer a {
+ color: var(--text-muted);
+ text-decoration: none;
+ margin: 0 12px;
+ font-weight: 700;
+ transition: color 0.3s;
+ }
+ 
+ footer a:hover {
+ color: var(--accent-neon);
+ }
+ 
+ @media(max-width: 768px) {
+ .hero-glow h1 {
+ font-size: 2.3rem;
+ }
+ .nav-links {
+ display: none;
+ }
+ .glass-box {
+ padding: 28px;
+ }
+ .premium-table {
+ font-size: 0.9rem;
+ }
+ }
+ 
+ </style>
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "BlogPosting",
+ "headline": "방화 노래방 밤문화 칼럼",
+ "image": "https://t3b05-bh-kb-info-2.pages.dev/og.jpg",
+ "author": {
+ "@type": "Person",
+ "name": "로컬 브로"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "방화 노래방 Portal"
+ },
+ "url": "https://t3b05-bh-kb-info-2.pages.dev/blog.html"
+ }
+ </script>
   <meta property="og:url" content="https://banghwa-song-note.mapo-room-guide.xyz/blog.html">
   <meta property="og:title" content="방화 노래방 꿀팁 및 트렌드 칼럼 | 방화 노래방 정보">
   <meta property="og:description" content="방화역 인근 로컬 상권에서 사운드 빵빵하고 서비스 안주 낭랑하게 챙겨주는 정찰제 패밀리 노래방 시설 및 예약 정보 가이드. 로컬 꿀팁 실전 수록 칼럼.">
@@ -329,49 +327,43 @@
 </head>
 <body>
 
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">방화 노래방 포털</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        <a href="blog.html">블로그</a>
-      </nav>
-    </div>
-  </header>
+ <header class="glow-header">
+ <div class="nav-container">
+ <a href="index.html" class="logo-glow">방화 노래방 포털</a>
+ <nav class="nav-links">
+ <a href="index.html">홈</a>
+ <a href="about.html">상세정보</a>
+ <a href="blog.html">블로그</a>
+ </nav>
+ </div>
+ </header>
 
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">COLUMN BLOG</span> 트렌드 블로그</h1>
-    <p>우리 방화 노래방를 한 단계 더 스마트하게 즐기고 힐링하고 갈 수 있는 실전 칼럼 저장소.</p>
-    <div class="phone-bar">
-      📞 예약 가이드 라인: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
+ <section class="hero-glow">
+ <h1><span class="gradient-txt">COLUMN BLOG</span> 트렌드 블로그</h1>
+ <p>우리 방화 노래방를 한 단계 더 스마트하게 즐기고 힐링하고 갈 수 있는 실전 칼럼 저장소.</p>
+ <div class="phone-bar">
+ 📞 예약 가이드 라인: 
+ </div>
+ </section>
 
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>노래방에서 가수로 빙의해 노래 100배 잘 부르는 마이크 튜닝법과 성대 보호 팁</h2>
-      <p>오늘 형이 노래방 가서 목 안 쉬고 끝까지 가창력 뽐내며 인생곡 뽑아내는 실전 비법 푼다.
-      첫째, 마이크 위생 커버는 꼭 씌우되 마이크 헤드 밑 철조망 부분을 움켜잡지 마라. 그렇게 잡으면 하울링 지대 나고 수신 감도 개구려짐. 가운데 몸통을 쥐어야 오디오 믹싱 잘 됨.
-      둘째, 룸 예약 시 예약 번호(010-6279-0862)로 미리 "에코랑 마이크 음량 밸런스 풀 세팅 잘 된 방"으로 달라고 단골 우대 접수해라. 기계 튜닝 상태 자체가 VIP급으로 달라진다.
-      셋째, 소리 지를 때 찬 탄산음료 마시지 말고 미지근한 보리차나 꿀물을 머금어 가며 성대를 상시 수분 케어해라.
-      형이 알려준 명품 음향 샵에서 오늘 시원하게 고음 지르고 스트레스 다 털어버려라!</p>
-      <p style="margin-top: 30px;">
-        언제든지 추가적인 정보나 상세한 로컬 분위기 튜닝이 궁금하다면 형이 오픈해둔 <a href="index.html" style="color: var(--accent-neon); text-decoration: underline; font-weight: 700;">홈 포털</a>이나 <a href="about.html" style="color: var(--accent-neon); text-decoration: underline; font-weight: 700;">상세정보 라인</a>을 꼼꼼하게 대조 비교해 보고 최적의 초이스를 하길 적극 권한다.
-      </p>
-    </div>
-  </main>
+ <main class="sec-wrap">
+ <div class="glass-box">
+ <h2>노래방에서 가수로 빙의해 노래 100배 잘 부르는 마이크 튜닝법과 성대 보호 팁</h2>
+ <p>오늘 형이 노래방 가서 목 안 쉬고 끝까지 가창력 뽐내며 인생곡 뽑아내는 실전 비법 푼다. 첫째, 마이크 위생 커버는 꼭 씌우되 마이크 헤드 밑 철조망 부분을 움켜잡지 마라. 그렇게 잡으면 하울링 지대 나고 수신 감도 개구려짐. 가운데 몸통을 쥐어야 오디오 믹싱 잘 됨. 기계 튜닝 상태 자체가 VIP급으로 달라진다. 셋째, 소리 지를 때 찬 탄산음료 마시지 말고 미지근한 보리차나 꿀물을 머금어 가며 성대를 상시 수분 케어해라. 형이 알려준 명품 음향 샵에서 오늘 시원하게 고음 지르고 스트레스 다 털어버려라!</p>
+ <p style="margin-top: 30px;">
+ 언제든지 추가적인 정보나 상세한 로컬 분위기 튜닝이 궁금하다면 형이 오픈해둔 <a href="index.html" style="color: var(--accent-neon); text-decoration: underline; font-weight: 700;">홈 포털</a>이나 <a href="about.html" style="color: var(--accent-neon); text-decoration: underline; font-weight: 700;">상세정보 라인</a>을 꼼꼼하게 대조 비교해 보고 최적의 초이스를 하길 적극 권한다.
+ </p>
+ </div>
+ </main>
 
-  <footer>
-    <p><strong>방화 노래방 찐후기 가이드 포털</strong></p>
-    <p>주소: 서울특별시 방화구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a> | 
-      <a href="blog.html">블로그</a>
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 방화 노래방 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
+ <footer>
+ <p><strong>방화 노래방 찐후기 가이드 포털</strong></p>
+ <p>주소: 서울특별시 방화구 일대</p>
+ <p>
+ <a href="index.html">홈</a><a href="about.html">상세정보</a><a href="blog.html">블로그</a>
+ </p>
+ <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 방화 노래방 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
+ </footer>
 
 </body>
 </html>
